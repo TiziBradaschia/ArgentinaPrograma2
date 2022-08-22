@@ -1,0 +1,42 @@
+#github{
+width: 40px;
+float:right;
+margin-top: 25px;
+}
+#ApLogo{
+    width: 180px;
+}
+.bx{
+    color:white;
+
+    
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    float:center;
+    margin-top: 25px;
+    border-color:white;
+    border-width: 2px;
+    border-radius: 80%;
+    font-size:large;
+    font-weight: bold;
+}
+@media(max-width:575px){
+    .btn{
+        width: 150px;
+        height: 50px;
+        margin-bottom:15px;
+        margin-left: 35%;
+      }
+      #github{
+        width: 35px;
+        float: none;
+        margin-left: 30%;
+        margin-bottom:15px;
+         margin-top:0px;
+        }
+        #ApLogo{
+            width:140px;
+        }
+    }

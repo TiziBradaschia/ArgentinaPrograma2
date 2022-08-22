@@ -1,0 +1,46 @@
+.row{
+    padding: 20px 20px 10px 10px;
+    
+}
+div{
+    text-align: center;
+}
+#nombre{
+    font-weight: bold;
+    font-size: 1.8em;
+    text-shadow: 1px 4px 1px green;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+@media(min-width:576px){
+#fotoTizi{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px green;
+    left: 5%;
+    top:480px;
+
+}
+}
+@media(max-width:575px){
+    #fotoTizi{
+        position: absolute;
+        width: 25%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px green;
+        left: 35%;
+        top: 580px;
+    }
+    }
+    #texto{
+        color:white;
+        padding-top: 500px;
+    }
+    #titulo{
+        color:yellowgreen;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-shadow: 1px 2px 1px black;
+    }
